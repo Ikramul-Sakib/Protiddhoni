@@ -10,7 +10,6 @@ class MainMenu extends Menu {
         this.currentUser = currentUser;
     }
 
-    @Override
     void displayMenu() {
         System.out.println("\n\t\t\t ------------------  Main Menu  ------------------\n");
         System.out.println("| Welcome, Sir...");
@@ -18,7 +17,7 @@ class MainMenu extends Menu {
         System.out.print("| Enter your choice: ");
     }
 
-    @Override
+
     void handleChoice() {
         int choice = scanner.nextInt();
         scanner.nextLine();

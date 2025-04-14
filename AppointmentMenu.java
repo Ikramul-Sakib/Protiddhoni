@@ -4,14 +4,13 @@ import java.util.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 class AppointmentMenu extends Menu {
-    @Override
     void displayMenu() {
         System.out.println("\n\t\t\t ------------------  Appointment Menu  ------------------\n");
         System.out.println("| 1. Add Appointment\n| 2. View Appointment\n| 3. Mark as Completed\n| 4. Cancel Appointment\n| 5. Back");
         System.out.print("| Enter your choice: ");
     }
 
-    @Override
+
     void handleChoice() {
         int choice = scanner.nextInt();
         scanner.nextLine();

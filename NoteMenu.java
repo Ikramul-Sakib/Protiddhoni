@@ -5,14 +5,14 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 class NoteMenu extends Menu {
-    @Override
+
     void displayMenu() {
         System.out.println("\n\t\t\t ------------------  Note Menu  ------------------\n");
         System.out.println("| 1. Add Note\n| 2. View Notes\n| 3. Delete Note by Date\n| 4. Back");
         System.out.print("| Enter your choice: ");
     }
 
-    @Override
+
     void handleChoice() {
         int choice = scanner.nextInt();
         scanner.nextLine();

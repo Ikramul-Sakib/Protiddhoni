@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 class EmergencyMenu extends Menu {
-    @Override
+
     void displayMenu() {
         System.out.println("\n\t\t\t ------------------  Emergency Menu  ------------------\n");
         System.out.println("\t\t\t<<<<<<<<< Welcome Sir! Let me know how I can assist you? >>>>>>>>>");
@@ -13,7 +13,6 @@ class EmergencyMenu extends Menu {
         System.out.print("| Choose an option: ");
     }
 
-    @Override
     void handleChoice() {
         int choice = scanner.nextInt();
         scanner.nextLine();

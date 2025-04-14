@@ -11,14 +11,13 @@ class MedicineMenu extends Menu {
         loadMedicines();
     }
 
-    @Override
+
     void displayMenu() {
         System.out.println("\n\t\t\t ------------------  Medicine Menu  ------------------\n");
         System.out.println("| 1. Add Medicine\n| 2. Show Medicine Chart\n| 3. Mark Medicine as Taken\n| 4. Exit");
         System.out.print("| Enter your choice: ");
     }
 
-    @Override
     void handleChoice() {
         int choice = scanner.nextInt();
         scanner.nextLine();
